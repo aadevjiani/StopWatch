@@ -1,1 +1,26 @@
 /* Stop Watch */
+
+.body{
+    background-color: black;
+    text-align: center;
+  }
+
+.h1{
+    color:black;
+    display: inline-block;
+    width: 100px;
+    background-color: #fff;
+  }
+
+.h2{
+    color: khaki;
+  }
+
+.h4{
+    color: lawngreen;
+  }
+
+.p{
+    color: palegreen;
+  }
+

@@ -4,10 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stop Watch</title>
-    <style src="style.css"></style>
+    <!-- <style src="style.css"></style> -->
 </head>
+
+<style>
+  body{
+    background-color: black;
+    text-align: center;
+  }
+
+  h1{
+    color:black;
+    display: inline-block;
+    width: 100px;
+    background-color: #fff;
+  }
+
+  h2{
+    color: khaki;
+  }
+
+  h4{
+    color: lawngreen;
+  }
+
+  p{
+    color: palegreen;
+  }
+</style>
+
 <body>
-    
+  <div>
+    <h2>Stop Watch</h2>
+  </div>
+
+  <div>
+    <h1 id="min">0</h1>
+    <h1 id="sec">0</h1>
+    <h1 id="msec">0</h1>
+  </div>
+
+  <div>
+    <button onclick = "start()" id="sbtn">Start</button>
+    <button onclick = "pause()" id="pbtn">Pause</button>
+    <button onclick = "reset()">Reset</button>
+  </div>
+
+
+  <div>
+    <h4>Introduction</h4>
+    <p>We all know the stopwatch as a device used to measure the passage of time, in sports for instance.
+      Stopwatch functionality wasn’t built in to conventional watches however until a complex watch called the “chronograph” came along. Combining the Greek words “chronos”, meaning “time”, and “graphos”, meaning “to write” or “to record”, the name chronograph literally means “a device to record time”.<br/><br/>
+      
+      A similar word is “chronometer”, which refers to a device used to express time extremely accurately. A prime example is the marine chronometer, an essential item of equipment for accurate and safe navigation at sea. The word chronometer is also used to refer to watches that have been certified to meet Swiss precision standards.<br/><br/>
+      
+      It is worth taking a moment to briefly explain constitutes of a stopwatch.
+      Although most modern-day stopwatches are quartz digital devices, the first stopwatches were mechanical analog devices with hands to display the time. Both types of devices are nonetheless required to perform the same five functions.<br/><br/>
+      
+      1.They can be started and stopped at any time, and can measure the time elapsed.<br/>
+      2.They can be reset to zero in order to take continuous measurements.<br/>
+      3.They can take continuous measurements in the smallest units required for competitive events.<br/>
+      4.They can take split times, and measure times for multiple competitors.<br/>
+      5.They are highly accurate.<br/>
+      </p>
+  </div>
+  
+  <div><h4>Birth of Stop Watch</h4>
+  <p>
+    Until just a few years ago, it was widely accepted that world’s first stopwatch was made by Nicolas Mathieu Rieussec in 1822, at the order of King Louis XVIII, following the restoration of royalty in France.<br/><br/>
+    As the king was a keen fan of horseracing, the purpose of this watch was to record the times of individual horses.
+  </p> 
+</div>
+
+  <script src="app.js"></script>
 </body>
-<script src="app.js"></script>
+
 </html>
